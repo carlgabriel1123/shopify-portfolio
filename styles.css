@@ -237,6 +237,9 @@ p{margin:0}
 .fw-tags span{font-family:var(--font-mono);font-size:.66rem;letter-spacing:.06em;text-transform:uppercase;color:#3a4a5a;background:rgba(255,255,255,.72);padding:5px 10px;border-radius:999px}
 .fw h3{font-size:1.55rem;font-weight:800;letter-spacing:-.02em}
 .fw p{margin-top:8px;color:#3f4d5c;font-size:.95rem;max-width:44ch}
+.fw-stat{display:flex;width:fit-content;align-items:baseline;gap:9px;margin-top:16px;background:rgba(255,255,255,.78);border:1px solid rgba(13,27,42,.06);padding:10px 16px;border-radius:12px}
+.fw-stat b{font-family:var(--font-display);font-weight:800;font-size:1.35rem;color:var(--green-ink);letter-spacing:-.02em;line-height:1}
+.fw-stat span{font-family:var(--font-mono);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;color:#3a4a5a;font-weight:600}
 .fw-link{margin-top:18px;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-display);font-weight:700;color:var(--ink);font-size:.95rem}
 .fw-link svg{width:16px;height:16px;transition:transform .2s var(--ease)}
 .fw:hover .fw-link svg{transform:translate(3px,-3px)}
